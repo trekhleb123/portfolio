@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap");
+
+body {
+  width: 100%;
+}
+
+.main {
+  background-image: url("https://img.pngio.com/transparent-grid-png-free-transparent-gridpng-transparent-transparent-grid-2000_1000.png");
+  min-height: 90vh;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+}
+
+@media (max-width: 960px) {
+  .main {
+    flex-direction: column;
+  }
+}
+
+.footer {
+  min-height: 5.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #231f20;
+}
+
+.footer p {
+  font-family: Monaco, sans-serif;
+  font-size: 0.8rem;
+  color: #fff;
+}
+
+.footer a {
+  color: #fff;
+  font-family: Monaco, sans-serif;
+  text-decoration: none !important;
+  font-size: 0.8rem;
+}
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#avatar {
+  flex-basis: 50%;
+  border-radius: 190px;
+}
+
+#avatar img {
+  width: 100%;
+  max-width: 20rem;
+  box-shadow: 7px 7px 7px rgba(34, 33, 33, 0.486);
+  border-radius: 190px;
+  margin: 5rem;
+}
+
+.icons svg {
+  width: 2.5rem;
+  height: 2.5rem;
+  color: white;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.bio {
+  background-color: #fff;
+  flex-basis: 50%;
+  height: 20rem;
+  box-shadow: 7px 7px 7px rgba(34, 33, 33, 0.486);
+  padding: 0.5rem 2rem;
+  font-family: "Cabin Sketch", cursive;
+  font-size: 1.5rem;
+  color: #231f20;
+  text-align: center;
+  max-width: 30rem;
+  margin: 5rem;
+}
+
+.bio p {
+  font-family: Monaco, sans-serif;
+  font-size: 1.2rem;
+  color: #231f20;
+}
+
+a {
+  color: #231f20;
+}
