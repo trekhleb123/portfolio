@@ -3,14 +3,20 @@
 
 body {
   width: 100%;
+  margin: 0;
 }
 
 .main {
   background-image: url("https://img.pngio.com/transparent-grid-png-free-transparent-gridpng-transparent-transparent-grid-2000_1000.png");
+  background-color: rgba(241, 239, 239, 0.795);
   min-height: 90vh;
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
+  margin: auto;
+}
+
+.wrapper {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -19,7 +25,7 @@ body {
 }
 
 @media (max-width: 960px) {
-  .main {
+  .wrapper {
     flex-direction: column;
   }
 }
@@ -96,4 +102,43 @@ body {
 
 a {
   color: #231f20;
+}
+
+.about {
+  background-color: #fff;
+  box-shadow: 7px 7px 7px rgba(34, 33, 33, 0.486);
+  padding: 0.5rem 2rem;
+  margin-bottom: 3rem;
+  font-family: "Cabin Sketch", cursive;
+  font-size: 1.5rem;
+  color: #231f20;
+  max-width: 60%;
+  text-align: center;
+}
+
+.about p {
+  font-family: Monaco, sans-serif;
+  font-size: 1rem;
+  color: #231f20;
+  text-align: left;
+}
+
+.about-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#home-icon {
+  font-size: 2rem;
+  padding: 1rem;
+  margin: 0.7rem;
+  background-color: #fff;
+  box-shadow: 7px 7px 7px rgba(34, 33, 33, 0.486);
+  border-radius: 190px;
+}
+
+b {
+  font-family: "Cabin Sketch", cursive;
 }
