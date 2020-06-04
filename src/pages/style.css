@@ -14,7 +14,7 @@ body {
   background-position: top center;
   background-size: cover;
   margin: auto;
-  height: calc(100vh - 5.5rem);
+  width: 100%;
 }
 
 .wrapper {
@@ -24,17 +24,7 @@ body {
   align-items: center;
   margin: auto;
   max-width: 1200px;
-  height: 100vh;
 }
-
-@media (max-width: 960px) {
-  .wrapper {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-}
-
 .footer {
   height: 5.5rem;
   display: flex;
@@ -42,6 +32,22 @@ body {
   justify-content: space-around;
   align-items: center;
   background-color: #231f20;
+}
+
+@media only screen and (max-width: 960px) {
+  .wrapper {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer {
+    flex-direction: column;
+    justify-content: center;
+    height: 8rem;
+  }
+}
+
+@media (max-width: 600px) {
 }
 
 .footer p {
@@ -73,7 +79,7 @@ body {
   max-width: 20rem;
   box-shadow: 7px 7px 7px rgba(34, 33, 33, 0.486);
   border-radius: 190px;
-  margin: 5rem;
+  /* margin: 5rem; */
 }
 
 .icons svg {

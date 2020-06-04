@@ -1,10 +1,13 @@
-import React from "react"
+import React, { useEffect } from "react"
 import Footer from "./footer"
 import "./style.css"
 import { Link } from "gatsby"
 import { FaHome } from "react-icons/fa"
 
 export default function About() {
+  useEffect(() => {
+    document.title = "alona trekhlib - about"
+  })
   return (
     <div>
       <div className="main">
