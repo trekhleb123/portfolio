@@ -96,7 +96,7 @@ body {
 .bio {
   background-color: #fff;
   flex-basis: 50%;
-  height: 20rem;
+  height: auto;
   box-shadow: 7px 7px 7px rgba(34, 33, 33, 0.486);
   padding: 0.5rem 2rem;
   font-family: "Cabin Sketch", cursive;
