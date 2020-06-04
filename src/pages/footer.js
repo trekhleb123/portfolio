@@ -5,7 +5,7 @@ import { MdMail } from "react-icons/md"
 export default function Footer() {
   return (
     <div className="footer">
-      <div>
+      <div style={{ padding: "1rem" }}>
         <a href="mailto:trekhleb.al@gmail.com" target="_blank">
           <MdMail style={{ fontSize: "1rem" }} /> <span>Email me</span>
         </a>
