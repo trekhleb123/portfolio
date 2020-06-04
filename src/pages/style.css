@@ -48,9 +48,9 @@ body {
     justify-content: center;
     height: 8rem;
   }
-}
-
-@media (max-width: 600px) {
+  #avatar img {
+    margin: 1rem;
+  }
 }
 
 .footer p {
@@ -82,7 +82,6 @@ body {
   max-width: 20rem;
   box-shadow: 7px 7px 7px rgba(34, 33, 33, 0.486);
   border-radius: 190px;
-  /* margin: 5rem; */
 }
 
 .icons svg {
