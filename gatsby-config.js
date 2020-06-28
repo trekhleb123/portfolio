@@ -6,5 +6,14 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: [],
+  plugins: [
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        start_url: `/`,
+        display: `minimal-ui`,
+        icon: `public/favicon.ico`,
+      },
+    },
+  ],
 }

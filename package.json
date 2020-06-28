@@ -16,6 +16,7 @@
   "dependencies": {
     "@blueprintjs/core": "^3.28.1",
     "gatsby": "^2.21.37",
+    "gatsby-plugin-manifest": "^2.4.14",
     "react": "^16.13.1",
     "react-awesome-button": "^6.5.1",
     "react-dom": "^16.13.1",

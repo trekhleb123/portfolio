@@ -10,9 +10,6 @@ export default function Error() {
     <>
       <div>
         <div className="main">
-          <Link to="/">
-            <FaHome id="home-icon" />
-          </Link>
           <div className="about-wrapper">
             <div className="about">
               Not Found
