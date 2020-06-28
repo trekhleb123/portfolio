@@ -12,7 +12,7 @@ module.exports = {
       options: {
         start_url: `/`,
         display: `minimal-ui`,
-        icon: `.src/pages/favicon.ico`,
+        icon: `src/pages/favicon.ico`,
       },
     },
   ],
