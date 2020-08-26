@@ -19,12 +19,12 @@ export default function About() {
             Who I Am
             <p>
               Hi, I'm Alona Trekhlib! I was born and raised in Ukraine and now I
-              am a Chicago local. I’m a Teaching Fellow and a bootcamp graduate
-              at Fullstack Academy, who is passionate about solving problems,
-              great user experience and making web apps better for everyone. I’m
-              excited to join a team where I can work with other talented
-              developers and continue to learn in a company with great culture
-              and positive environment.
+              am a Chicago local. I’m a Software Engineering Teaching Fellow and
+              a bootcamp graduate at Fullstack Academy, who is passionate about
+              solving problems, great user experience and making web apps better
+              for everyone. I’m excited to join a team where I can work with
+              other talented developers and continue to learn in a company with
+              great culture and positive environment.
             </p>
           </div>
           <div className="about">

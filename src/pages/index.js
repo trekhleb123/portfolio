@@ -12,19 +12,32 @@ export default function Home() {
   return (
     <>
       <div className="main">
-        <div className="wrapper">
-          <div id="avatar">
-            <img src={alona} />
+        <div className="wrapper-buttons">
+          <div className="nav-buttons">
+            <Link to="/about">
+              <button>About</button>
+            </Link>
+            <Link to="/projects">
+              <button>Projects</button>
+            </Link>
+            <a href={resume}>
+              <button>Resume</button>
+            </a>
           </div>
-          <div className="bio">
-            <h1>Alona Trekhlib</h1>
-            <hr />
-            <p>
-              Hi there! I’m a software developer who is passionate about solving
-              problems, great user experience and making web apps better for
-              everyone. Read <Link to="/about">about</Link> me, or download my{" "}
-              <a href={resume}>resume</a>.
-            </p>
+          <div className="wrapper">
+            <div id="avatar">
+              <img src={alona} />
+            </div>
+            <div className="bio">
+              <h1>Alona Trekhlib</h1>
+              <hr />
+              <p>
+                Hi there! I’m a software developer who is passionate about
+                solving problems, great user experience and making web apps
+                better for everyone. Read <Link to="/about">about</Link> me, or
+                download my <a href={resume}>resume</a>.
+              </p>
+            </div>
           </div>
         </div>
       </div>

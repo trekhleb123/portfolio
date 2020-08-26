@@ -23,8 +23,22 @@ body {
   justify-content: space-around;
   align-items: center;
   margin: auto;
+  /* max-width: 1200px;
+  height: calc(100vh - 5.5rem); */
+}
+
+.wrapper-buttons {
+  margin: auto;
   max-width: 1200px;
   height: calc(100vh - 5.5rem);
+}
+
+.nav-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: auto;
+  padding: 3.5rem 2rem 2rem 2rem;
 }
 
 .footer {
@@ -36,7 +50,7 @@ body {
   background-color: #231f20;
 }
 
-@media only screen and (max-width: 960px) {
+@media only screen and (max-width: 1024px) {
   .wrapper {
     flex-direction: column;
     align-items: center;
@@ -50,6 +64,9 @@ body {
   }
   #avatar img {
     margin: 1rem;
+  }
+  .wrapper-buttons {
+    height: auto;
   }
 }
 
@@ -154,4 +171,23 @@ a {
 
 b {
   font-family: "Cabin Sketch", cursive;
+}
+
+button {
+  background-color: white;
+  width: 8rem;
+  height: 2.5rem;
+  box-shadow: 7px 7px 7px rgba(34, 33, 33, 0.486);
+  font-family: "Cabin Sketch", cursive;
+  font-size: 1.5rem;
+  color: none;
+  border: none;
+  cursor: pointer;
+}
+button:focus {
+  outline: none;
+}
+button:active {
+  border-color: transparent;
+  box-shadow: none;
 }
