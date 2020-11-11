@@ -1,7 +1,6 @@
 import React, { useEffect } from "react"
 import "./style.css"
 import alona from "./alona.png"
-import resume from "./Alona_Trekhlib_Resume.pdf"
 import { Link } from "gatsby"
 import Footer from "./footer"
 
