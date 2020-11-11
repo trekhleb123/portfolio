@@ -19,12 +19,7 @@ export default function About() {
             Who I Am
             <p>
               Hi, I'm Alona Trekhlib! I was born and raised in Ukraine and now I
-              am a Chicago local. I’m a Teaching Fellow and a bootcamp graduate
-              at Fullstack Academy, who is passionate about solving problems,
-              great user experience and making web apps better for everyone. I’m
-              excited to join a team where I can work with other talented
-              developers and continue to learn in a company with great culture
-              and positive environment.
+              am a Chicago local. I'm currently working as Frontend Developer at Metopio where I create tools to easily access data, analyze it and produce visualizations in minutes. I am passionate about solving problems, great user experience and making web apps better for everyone and I take pride in my high standards of work and creating quality code that lasts.
             </p>
           </div>
           <div className="about">
@@ -34,8 +29,8 @@ export default function About() {
               PostgreSQL/Sequelize, Git/Github
             </p>
             <p>
-              <b>Knowledgeable:</b> HTML/CSS, Firebase, Webpack, Ant Design,
-              Passport, Heroku, Clarifai, Chrome Extensions, Gatsby, Material UI{" "}
+              <b>Knowledgeable:</b> HTML/CSS, Vue, jQuery, Firebase, Webpack, Ant Design,
+              Passport, Heroku, Clarifai, Chrome Extensions, Gatsby, Material UI, Bootstrap{" "}
             </p>
             <p>
               <b>Familiar:</b> Babel, Mocha/Chai, Stripe, GraphQL/Apollo,

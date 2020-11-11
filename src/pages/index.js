@@ -22,8 +22,7 @@ export default function Home() {
             <p>
               Hi there! I’m a software developer who is passionate about solving
               problems, great user experience and making web apps better for
-              everyone. Read <Link to="/about">about</Link> me, or download my{" "}
-              <a href={resume}>resume</a>.
+              everyone. Read <Link to="/about">about</Link> me, or  <a href="mailto:trekhleb.al@gmail.com" target="_blank">email me</a> if you wanna reach out!
             </p>
           </div>
         </div>
