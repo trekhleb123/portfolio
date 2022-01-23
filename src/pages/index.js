@@ -3,6 +3,7 @@ import "./style.css"
 import alona from "./alona.png"
 import { Link } from "gatsby"
 import Footer from "./footer"
+import { Helmet } from "react-helmet"
 
 export default function Home() {
   useEffect(() => {
@@ -10,10 +11,18 @@ export default function Home() {
   })
   return (
     <>
+      <Helmet meta={[
+        { "name": "description", "content": "Alona Trekhlib portfolio site" },
+        { "name": "keywords", "content": "blog, development, engineer, web developer, react, gatsby, javascript" },
+      ]}>
+        <meta charSet="utf-8" />
+        <title>alona trekhlib</title>
+
+      </Helmet>
       <div className="main">
         <div className="wrapper">
           <div id="avatar">
-            <img src={alona} />
+            <img src={alona} alt="avatar" />
           </div>
           <div className="bio">
             <h1>Alona Trekhlib</h1>
@@ -21,7 +30,7 @@ export default function Home() {
             <p>
               Hi there! I’m a software developer who is passionate about solving
               problems, great user experience and making web apps better for
-              everyone. Read <Link to="/about">about</Link> me, or  <a href="mailto:trekhleb.al@gmail.com" target="_blank">email me</a> if you wanna reach out!
+              everyone. Read <Link to="/about" title="Go to About Page">about</Link> me, or  <a href="mailto:trekhleb.al@gmail.com" rel="noreferrer" target="_blank" title="Email me">email me</a> if you wanna reach out!
             </p>
           </div>
         </div>
