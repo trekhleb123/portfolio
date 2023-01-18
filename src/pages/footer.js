@@ -5,15 +5,11 @@ import { MdMail } from "react-icons/md"
 export default function Footer() {
   return (
     <div className="footer">
-      <div style={{ padding: "1rem" }}>
-        <a href="mailto:trekhleb.al@gmail.com" target="_blank" title="Email me" rel="noreferrer">
-          <MdMail style={{ fontSize: "1rem" }} /> <span>Email me</span>
-        </a>
-      </div>
-      <div className="icons">
+      <div style={{flex: "1"}}/>
+      <div className="icons"  style={{flex: "1"}}>
         <div>
-          <a href="https://twitter.com/trekhleb123" rel="noreferrer" target="_blank" title="Open Twitter profile">
-            <FaTwitter />
+          <a href="mailto:trekhleb.al@gmail.com" target="_blank" title="Email me" rel="noreferrer">
+          <MdMail /> 
           </a>
         </div>
         <div>
@@ -27,8 +23,8 @@ export default function Footer() {
           </a>
         </div>
       </div>
-      <div>
-        <p>© 2022 Alona Trekhlib</p>
+      <div  style={{flex: "1", textAlign: "end", paddingRight: "1rem"}}>
+        <p>© 2023 Alona Trekhlib</p>
       </div>
     </div>
   )
