@@ -10,10 +10,14 @@ export default function Error() {
     <>
       <div>
         <div className="main">
-          <div className="about-wrapper">
-            <div className="about">
-              Not Found
-              <p>Ooops, page not found :(</p>
+          <div className="wrapper">
+            <div className="bio">
+              <h3>
+                404
+              </h3>
+                
+              <p>Page not found</p>
+        
             </div>
           </div>
         </div>

@@ -1,5 +1,5 @@
 import React from "react"
-import { FaTwitter, FaGithub, FaLinkedin } from "react-icons/fa"
+import { FaGithub, FaLinkedin } from "react-icons/fa"
 import { MdMail } from "react-icons/md"
 
 export default function Footer() {
